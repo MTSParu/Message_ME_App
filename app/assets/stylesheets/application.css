@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ .chatbox .content {
+    overflow-y: auto;
+ }
+
+ .chatbox .extra.content {
+    overflow: visible;
+ }
